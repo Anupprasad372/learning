@@ -9,6 +9,7 @@ jobs:
             name: Install Dependencies
             command: |
               lscpu
+              sudo
               echo Hello,subscribe it
 
 workflows:
